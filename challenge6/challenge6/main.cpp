@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
 
     customerCost = (smallRommsCount * smallRoomPrice) + (largeRommsCount * largeRoomPrice);
     
-    std::cout << std::endl << "Cost: " << customerCost << "$" <<  std::endl;
+    std::cout << std::endl << "Cost: $" << customerCost << std::endl;
     std::cout << std::endl << "Tax: " << saleTax * customerCost << "$" << "\n" <<  std::endl;
     std::cout << std::endl << "Total: " << (saleTax * customerCost) + customerCost << "$" <<  std::endl;
     std::cout << "The offer is valid for " << offerDays << " days from now." << std::endl;
